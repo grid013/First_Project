@@ -3,6 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+
 .hero-banner{
     background-image:url(./img/banner.jpg);
     background-position: center;
@@ -28,6 +29,7 @@ body{
     -o-transform:translatey(-10px );
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
+
 .speaker:hover  h5  {
     color: blue;
 }
@@ -40,6 +42,29 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.Organizers {
+    --s: 20rem;   /* the size of the image */
+    --b: 4px;     /* the border thickness*/
+    --g: 10px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
+  }
+  .Organizers:hover{
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+
+
+  
+ 
+
 
 
 
