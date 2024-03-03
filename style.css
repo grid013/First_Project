@@ -63,6 +63,10 @@ body{
 
   #data tr {
     display: none;
+    
+  }
+  #data{
+    margin-top: 10px;
   }
   .day{
     text-decoration: none;
@@ -70,11 +74,13 @@ body{
     font-weight: 500;
     margin: 5px;
     color: white;
+    
+    
  
 }
   .styleDay{
     padding: 5px 10px;
-    margin: 3px;
+    
     background-color: darkslategray;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -167,6 +173,13 @@ body{
     color: rgb(86, 84, 84);
     font-weight: 200;
 
+}
+.allspeakers{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
 }
 
 

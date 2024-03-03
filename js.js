@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#data').after('<div id="nav"></div>');
+    $('#data').before('<div id="nav"></div>');
    
     var rowsShown = 9;
     var rowsTotal = $('#data tbody tr').length;
