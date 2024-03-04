@@ -28,6 +28,9 @@ $(document).ready(function(){
 
 
 
+
+
+
 function countdown() {
     const today = new Date();
     var offerDate = new Date('4 April 2024');
@@ -66,3 +69,15 @@ function resetOfferDate() {
 }
 
 setInterval(countdown, 1000);
+
+
+$(document).ready(function(){
+    var date_input=$('input[name="date"]'); //our date input has the name "date"
+    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+    date_input.datepicker({
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+    })
+})
