@@ -12,8 +12,9 @@
    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg m-0 bg-light sticky-top">
-        <div class="container-md">
+    <section class="fixed-top bg-light">
+    <nav class="navbar navbar-expand-md navbar-expand-lg m-0 bg-light">
+        <div class="container">
           
           <a class="navbar-brand link-dark" href="#">TechForward 2024</a>
           <button
@@ -60,12 +61,13 @@
           </div>
         </div>
       </nav>
-      <section class="hero-banner">
-        <div class="col-sm-8 col-md-8 col-lg-4 position-absolute top-50 start-50 translate-middle text-center">
+    </section>
+      <section class="hero-banner d-flex justify-content-center align-items-center ">
+        <div class="col-sm-8 col-md-8 col-lg-4 text-center">
 
             <h1 class="text-center text-light">Welcome to TechForward 2024</h1>
             <p class="text-center text-light">The premier event for professionals in the industry.</p>
-            <button type="button" class="btn btn-primary text-light mt-3 mb-5">Register Now</button>
+            <button type="button" class="btn btn-primary text-light mt-3 mb-3">Register Now</button>
 
 
 
@@ -73,16 +75,16 @@
         </div>
 
       </section>
-      <section class="container mb-4">
+      <section class="container-md mb-4">
         <h2 class="text-center text-dark fw-normal mt-5">Why Attend?</h2>
         <p class="text-center text-dark">Discover the latest tech trends, meet industry experts, and network with professionals.</p>
      
       <div class="container mt-4">
         <h3 class="card-head text-center text-dark fw-normal ">Featured Speakers</h3>
 
-         <div class="container d-flex justify-content-center gap-4">
+         <div class="container d-flex justify-content-center align-items-center gap-4" id="speakers">
 
-            <div class="my-3 card border border-none speaker"  style="width:20rem ;">
+            <div class="my-3 card  border border-none speaker"  style="width:21rem ;">
                 <img src="./img/emily.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-light text-dark">
                   <h5 class="card-title">Emily Hart</h5>
@@ -93,7 +95,7 @@
             
                 </div>
               </div>
-              <div class="my-3 card border border-none speaker" style="width: 20rem;">
+              <div class="my-3 card  border border-none speaker" style="width: 21rem;">
                 <img src="./img/michael.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-light text-dark">
                   <h5 class="card-title">Michael Anderson</h5>
@@ -105,7 +107,7 @@
                   
                 </div>
               </div>
-              <div class="my-3 card border border-none speaker" style="width: 20rem;">
+              <div class="my-3 card  border border-none speaker" style="width: 21rem;">
                 <img src="./img/david.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-light text-dark">
                   <h5 class="card-title">David Miller</h5>
@@ -124,24 +126,24 @@
 
 </div>
 </section>
-<section class="container bg-light">
+<section class="container-md bg-light">
     <h2 class="text-center text-dark fw-normal mt-5 pt-4 fs-1">Our Event in Numbers</h2>
     <div class="row py-5">
-        <div class="col-3">
+        <div class="col-sm-6 col-3 text-center">
             <h2 class="text-center text-primary fw-bold fs-1">500+</h2>
           <h4 class="text-center fw-light">Attendees</h4>
             
 
         </div>
-        <div class="col-3">
+        <div class="col-sm-6 col-3 text-center">
         <h2 class="text-center text-primary fw-bold fs-1">50+</h2>
           <h4 class="text-center fw-light">Speakers</h4>
         </div>
-        <div class="col-3">
+        <div class="col-sm-6 col-3 text-center">
             <h2 class="text-center text-primary fw-bold fs-1">40+</h2>
           <h4 class="text-center fw-light">Sessions</h4>
         </div>
-        <div class="col-3">
+        <div class="col-sm-6 col-3">
             <h2 class="text-center text-primary fw-bold fs-1">20+</h2>
           <h4 class="text-center fw-light">Countries Represented</h4>
             
@@ -150,11 +152,11 @@
 
 
 </section>
-<section class="container justify-content-center">
+<section class="container-md justify-content-center">
     <h2 class="text-center text-dark fw-normal mt-5 pt-4 fs-1">What People Are Saying</h2>
 
 
-    <div class="d-flex pt-4 justify-content-center  gap-4">
+    <div class="d-flex pt-4 justify-content-center  gap-4 quote">
         <div class="bg-light border-start border-primary-subtle border-5" style="width: 25rem;">
             <blockquote class="blockquote p-4">
                 <p class="fs-5 fst-italic"> "TechForward conference was an eye-opening experience. The
@@ -190,13 +192,13 @@
     </div>
 
 <div class="mb-5">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/k4xBNPMRD6M?si=sUwfqKaKVP0R_sYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k4xBNPMRD6M?si=sUwfqKaKVP0R_sYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="youtube"></iframe>
 </div>
 </section>
-<section class="container my-5 text-center bg-sage rounded">
+<section class="container-md my-5 text-center  rounded d-flex justify-content-center align-items-center flex-column">
     <h2 class="text-center text-dark fw-normal my-5 pt-4 fs-1">Countdown to TechForward 2024</h2>
-    <div class="row">
-        <div class="col-8 offset-3">
+    
     <div class="wrap text-center pb-4">
        
         <div class="timer">
@@ -218,12 +220,11 @@
             </div>
         </div>
     </div>
-</div>
-</div>
+
 
 
 </section>
-<section class="container bg-light my-5">
+<section class="container-md bg-light my-5">
 
     <div class="col-lg-12 text-center py-5">
 
