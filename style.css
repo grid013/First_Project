@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 
-.hero-banner{
+#hero-banner{
     background-image:url(./img/banner.jpg);
     background-position: center;
     background-size: cover;
@@ -93,43 +93,30 @@ body{
     background-color: darkgoldenrod;
 }
 
-.wrap{
-    display: flex;
-    flex-direction: row;
-}
+
+
 .timer{
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    margin-left: 3rem;
-    gap: 30px;
-    color:rgb(56, 19, 166);
-    margin-top: -5px;
+   
+ color:rgb(56, 19, 166);
+    
     
    
 }
 .days{
     background-color: lightskyblue;
-    padding: 11px;
-    font-size: 50px;
-    font-weight: 700;
+    
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.days p{
-    color: rgb(86, 84, 84);
-    font-weight: 200;
-}
+
 
 
 .hours{
     background-color: lightskyblue;
-    padding: 11px;
-    font-size: 50px;
-    font-weight: 700;
+  
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -137,44 +124,28 @@ body{
     -o-border-radius: 10px;
    
 }
-.hours p{
-    color: rgb(86, 84, 84);
-    font-weight: 200;
 
-}
 .mins{
     background-color: lightskyblue;
-    padding: 11px;
-    font-size: 50px;
-    font-weight: 700;
+  
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.mins p{
-    color: rgb(86, 84, 84);
-    font-weight: 200;
 
-}
 
 .secs{
     background-color: lightskyblue;
-    padding: 11px;
-    font-size: 50px;
-    font-weight: 700;
+   
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.secs p{
-    color: rgb(86, 84, 84);
-    font-weight: 200;
 
-}
 .allspeakers{
     display: grid;
     grid-template-columns: 20rem 20rem 20rem;
@@ -184,7 +155,7 @@ body{
 }
 
 
-@media screen and (max-width:430px){
+@media screen and (max-width:576px){
     #speakers{
         display: flex;
         flex-direction: column;
@@ -197,11 +168,34 @@ body{
     .quote{
         display: flex;
         flex-direction: column;
-        width: 18rem;
+        width: 5rem;
         
     }
+  
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

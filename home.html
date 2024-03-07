@@ -12,8 +12,8 @@
    
 </head>
 <body>
-    <section class="fixed-top bg-light">
-    <nav class="navbar navbar-expand-md navbar-expand-lg m-0 bg-light">
+    <section class="bg-light">
+    <nav class="navbar navbar-expand-lg m-0 bg-light fixed-top">
         <div class="container">
           
           <a class="navbar-brand link-dark" href="#">TechForward 2024</a>
@@ -62,7 +62,7 @@
         </div>
       </nav>
     </section>
-      <section class="hero-banner d-flex justify-content-center align-items-center ">
+      <section class="container-fluid d-flex justify-content-center align-items-center " id="hero-banner">
         <div class="col-sm-8 col-md-8 col-lg-4 text-center">
 
             <h1 class="text-center text-light">Welcome to TechForward 2024</h1>
@@ -79,7 +79,7 @@
         <h2 class="text-center text-dark fw-normal mt-5">Why Attend?</h2>
         <p class="text-center text-dark">Discover the latest tech trends, meet industry experts, and network with professionals.</p>
      
-      <div class="container mt-4">
+      <div class="container-md mt-4">
         <h3 class="card-head text-center text-dark fw-normal ">Featured Speakers</h3>
 
          <div class="container d-flex justify-content-center align-items-center gap-4" id="speakers">
@@ -128,22 +128,22 @@
 </section>
 <section class="container-md bg-light">
     <h2 class="text-center text-dark fw-normal mt-5 pt-4 fs-1">Our Event in Numbers</h2>
-    <div class="row py-5">
-        <div class="col-sm-6 col-3 text-center">
+    <div class="row justify-content-center py-5">
+        <div class="col-5 col-sm-5 col-md-3 col-lg-3 text-center">
             <h2 class="text-center text-primary fw-bold fs-1">500+</h2>
           <h4 class="text-center fw-light">Attendees</h4>
             
 
         </div>
-        <div class="col-sm-6 col-3 text-center">
+        <div class="col-5 col-sm-5 col-md-3 col-lg-3 text-center">
         <h2 class="text-center text-primary fw-bold fs-1">50+</h2>
           <h4 class="text-center fw-light">Speakers</h4>
         </div>
-        <div class="col-sm-6 col-3 text-center">
+        <div class="col-5 col-sm-5 col-md-3 col-lg-3 text-center">
             <h2 class="text-center text-primary fw-bold fs-1">40+</h2>
           <h4 class="text-center fw-light">Sessions</h4>
         </div>
-        <div class="col-sm-6 col-3">
+        <div class="col-5 col-sm-5 col-md-3 col-lg-3 text-center">
             <h2 class="text-center text-primary fw-bold fs-1">20+</h2>
           <h4 class="text-center fw-light">Countries Represented</h4>
             
@@ -157,25 +157,25 @@
 
 
     <div class="d-flex pt-4 justify-content-center  gap-4 quote">
-        <div class="bg-light border-start border-primary-subtle border-5" style="width: 25rem;">
+        <div class="bg-light border-start border-primary-subtle border-5" style="width: 22rem;">
             <blockquote class="blockquote p-4">
-                <p class="fs-5 fst-italic"> "TechForward conference was an eye-opening experience. The
+                <p class="fs-6 fst-italic"> "TechForward conference was an eye-opening experience. The
                     range of topics and the expertise of the speakers were
                     unparalleled. I left feeling inspired and connected."</p>
                     <p class="fw-bold py-3 float-end">- Jordan Smith, Developer</p>
               </blockquote>
         </div>
-        <div class="bg-light border-start border-primary-subtle border-5" style="width: 25rem;">
+        <div class="bg-light border-start border-primary-subtle border-5" style="width: 22rem;">
             <blockquote class="blockquote p-4">
-                <p class="fs-5 fst-italic">"As a first-time attendee, I was blown away by the
+                <p class="fs-6 fst-italic">"As a first-time attendee, I was blown away by the
                     organization and the quality of talks at TechForward. I've
                     made invaluable connections and learned so much."</p>
                     <p class="fw-bold py-3 float-end">- Emily Carter, Software Engineer</p>
               </blockquote>
         </div>
-        <div class="bg-light border-start border-primary-subtle border-5" style="width: 25rem;">
+        <div class="bg-light border-start border-primary-subtle border-5" style="width: 22rem;">
             <blockquote class="blockquote p-4">
-                <p class="fs-5 fst-italic">"This conference is a must-attend for anyone in the tech
+                <p class="fs-6 fst-italic">"This conference is a must-attend for anyone in the tech
                     industry. The networking opportunities alone are worth it, not
                     to mention the cutting-edge insights from the sessions."</p>
                     <p class="fw-bold py-3 float-end">- Alex Johnson, Tech Entrepreneur</p>
@@ -196,30 +196,30 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/k4xBNPMRD6M?si=sUwfqKaKVP0R_sYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="youtube"></iframe>
 </div>
 </section>
-<section class="container-md my-5 text-center  rounded d-flex justify-content-center align-items-center flex-column">
+<section class="container-fluid  my-5 text-center">
     <h2 class="text-center text-dark fw-normal my-5 pt-4 fs-1">Countdown to TechForward 2024</h2>
     
-    <div class="wrap text-center pb-4">
+    
        
-        <div class="timer">
-            <div class="days">
-                <span id="days_left"> 0</span>
-                <p>days</p>
+        <div class="row justify-content-center gap-3">
+            <div class="col-2 col-sm-1 col-md-1 col-lg-1 days">
+                <span class="text-dark fs-2 fw-bold" id="days_left"> 0</span>
+                <p class="fw-bold">days</p>
             </div>
-            <div class="hours">
-                <span id="hours_left"> 0 </span>
-               <p> hours</p>
+            <div class="col-2 col-sm-1 col-md-1 col-lg-1 hours">
+                <span class="text-dark fs-2 fw-bold" id="hours_left"> 0 </span>
+               <p class="fw-bold"> hours</p>
             </div>
-            <div class="mins">
-                <span id="mins_left"> 0 </span>
-               <p> mins</p>
+            <div class="col-2 col-sm-1 col-md-1 col-lg-1 mins">
+                <span class="text-dark fs-2 fw-bold" id="mins_left"> 0 </span>
+               <p class="fw-bold"> mins</p>
             </div>
-            <div class="secs">
-                <span id="secs_left"> 0 </span>
-                <p>secs</p>
+            <div class="col-2 col-sm-1 col-md-1 col-lg-1 secs">
+                <span class="text-dark fs-2 fw-bold" id="secs_left"> 0 </span>
+                <p class="fw-bold">secs</p>
             </div>
         </div>
-    </div>
+    
 
 
 
@@ -241,22 +241,22 @@
 </section>
 <footer class="bg-light container-fluid text-center">
     
-    <div class="row py-4">
-        <div class="col-5 offset-1">
-            <p class="fs-6 text-secondary">Follow us on social media:</p>
-            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-twitter fs-5"></i><span class="fs-6 ps-2">Twitter</span></a>
-            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-facebook fs-5 ps-2"></i><span class="fs-6 ps-2">Facebook</span></a>
-            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-instagram fs-5 ps-2"></i><span class="fs-6 ps-2">Instagram</span></a>
-            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-linkedin fs-5 ps-2"></i><span class="fs-6 ps-2">LinkedIn</span></a>
+    <div class="row justify-content-center py-4 g-3">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <p class="fs-6 text-secondary text-start">Follow us on social media:</p>
+            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-twitter fs-5"></i><span class="fs-6 ps-1">Twitter</span></a>
+            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-facebook fs-5 ps-2"></i><span class="fs-6 ps-1">Facebook</span></a>
+            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-instagram fs-5 ps-2"></i><span class="fs-6 ps-1">Instagram</span></a>
+            <a href="" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-linkedin fs-5 ps-2"></i><span class="fs-6 ps-1">LinkedIn</span></a>
         </div>
-        <div class="col-5 ">
-            <p class="fs-6 text-secondary">Quick links:</p>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 ">
+            <p class="fs-6 text-secondary text-start">Quick links:</p>
             <a href="home.html" class="link-offset-2 link-underline link-underline-opacity-0">Home</a>
-            <a href="About.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-2">About</a>
-            <a href="Schedule.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-2">Schedule</a>
-            <a href="Speakers.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-2">Speakers</a>
-            <a href="Register.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-2">Register</a>
-            <a href="Contact Us.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-2">Contact Us</a>
+            <a href="About.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-1">About</a>
+            <a href="Schedule.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-1">Schedule</a>
+            <a href="Speakers.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-1">Speakers</a>
+            <a href="Register.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-1">Register</a>
+            <a href="Contact Us.html" class="link-offset-2 link-underline link-underline-opacity-0 ps-1">Contact Us</a>
         </div>
     </div>
 <div class="text-center">
