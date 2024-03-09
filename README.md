@@ -1,16 +1,17 @@
 <h1 align="center">Welcome to TechForward 2024</h1>
 
 
-<br> 
+<br>
 
 Wanna See a Live Example?
 Head to the deployed site at [Welcome to TechForward 2024]().
 
 ## Table of Contents
+
 * [Abaut TechForward 2024]
   * [Initial Discussion]
-  * [User Experience](#user-Experience)
-  * [User Stories](#user-Stories)
+  * [User Experience](#user-experience)
+  * [User Stories](#user-stories)
   * [Contact Us]
   * [Design]
   * [Colour Scheme]
@@ -29,12 +30,15 @@ Head to the deployed site at [Welcome to TechForward 2024]().
 <br>
 
 ## About TechForward 2024
+
 ### Initial Discussion
 
 About the Conference
 The TechForward 2024 is designed to bring together professionals from across the globe to discuss the latest technology trends, innovations, and challenges in the industry. Founded in 2010, our annual conference has grown into one of the most anticipated events in our field.
 ## User Experience
+
 ## User Stories
+
 - First Time Visitor Goals
     - As a first time visitor, I want to be able to navigate the site easily.
     - As a first time visitor, I want to view the available ticket.
@@ -46,13 +50,14 @@ The TechForward 2024 is designed to bring together professionals from across the
     - As a frequent visitor, I want to book a ticket.
     - As a frequent visitor, I want to receive notifications of upcoming TechForward 2024.
     - As a frequent visitor, I want to view the details and availability for every speakers.
+
 ## Contact Us
 
 | Name  | Description |
 | ------------- | ------------- |
 | Office | Address: Pallati i Kongreseve, Bulevardi Dëshmorët e Kombit, Tiranë, Albania  |
 | Phone  | Phone: +123 456 7890|
-| Email | Email: info@techforward2024.com|
+| Email | Email:info@techforward2024.com|
 
 
 
@@ -139,6 +144,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 ## Technologies Used
 
 ### Languages Used 
+
 * HTML and CSS
 * JavaScript
 
@@ -169,6 +175,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * After it's done, you will see a message saying "Your site is ready to be published at (insert url here)".
 
 ### Local Development
+
 #### How To Fork
 
 Forking a repository is the process of creating a copy of the original repository. This enables you to make changes without affecting the main repository. 
