@@ -199,12 +199,15 @@ body {
   #speakers-about{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
 
   }
   #scroll-data{
   
     overflow-x: scroll;
+    scrollbar-color: rgb(9, 56, 9) white;
     
     
 }
