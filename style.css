@@ -211,4 +211,16 @@ body {
     
     
 }
+.allspeakers{
+    display: grid;
+    grid-template-columns: 20rem;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#map{
+    width: 370px;
+    height: 250px;
+}
 }
