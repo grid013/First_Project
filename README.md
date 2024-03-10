@@ -65,9 +65,7 @@ The TechForward 2024 is designed to bring together professionals from across the
 
 ### Colour Scheme
 
-We wanted to use a colour scheme that wasn't going to distract too much from the text but also make the website pop, and look fun. From the competitors websites, I found a lot of local bakeries were tending to use pastel type colours.
-
-
+We wanted to use a colour scheme that wasn't going to distract too much from the text but also make the website pop, and look fun. 
 
 
 ### Imagery

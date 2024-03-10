@@ -8,8 +8,7 @@ body {
 
 
 
-
-
+/* Home Css */
 #hero-banner {
   background-image: url(./img/banner.jpg);
   background-position: center;
@@ -47,6 +46,7 @@ body {
   align-items: center;
 }
 
+/*About css */
 .Organizers {
   --s: 20rem; /* the size of the image */
   --b: 4px; /* the border thickness*/
@@ -65,7 +65,7 @@ body {
   outline-offset: var(--g);
 }
 
-
+/* Schedule css */
 #data tr {
   display: none;
 }
@@ -92,6 +92,8 @@ body {
 .styleDay:hover {
   background-color: darkgoldenrod;
 }
+
+/* Contdown css */
 
 .timer{
   color: rgb(56, 19, 166);
@@ -147,6 +149,7 @@ body {
   0%{
     transform: scale(0);
   }
+
   50% {
     tansform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -161,7 +164,7 @@ body {
     transform: scale(0);
   }
 }
-
+ /* Speakers css */
 .allspeakers {
   display: grid;
   grid-template-columns: 20rem 20rem 20rem;
@@ -169,7 +172,7 @@ body {
   gap: 10px;
   justify-content: center;
 }
-
+/* Responsive */
 @media screen and (max-width: 576px){
   #speakers {
     display: flex;
@@ -182,18 +185,8 @@ body {
     width: 280px;
     height: 160px;
   }
-  .quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #quote-item{
-    width: 200px;
-  }
+ 
 
   #video-content {
     width: 360px;
@@ -230,7 +223,7 @@ body {
     align-items: center;
 }
 #map{
-    width: 370px;
+    width: 350px;
     height: 250px;
 }
 }

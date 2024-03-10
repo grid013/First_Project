@@ -1,3 +1,6 @@
+
+//Table javascript
+
 $(document).ready(function(){
     $('#data').before('<div id="nav"></div>');
    
@@ -30,7 +33,7 @@ $(document).ready(function(){
 
 
 
-
+// Countdown javascrpit
 function countdown() {
     const today = new Date();
     var offerDate = new Date('4 April 2024');
@@ -69,6 +72,8 @@ function resetOfferDate() {
 }
 
 setInterval(countdown, 1000);
+
+// Data input javascript
 
 
 $(document).ready(function(){
